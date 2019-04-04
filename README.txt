@@ -1,14 +1,12 @@
 En este script se emplea Node.js para al carga de datos contenidos en un fichero CSV a una base de datos MySQL.
-La explicaciÛn del set up va dirigida a su instalacion en una distribuciÛn GNU/Linux.
-En Windows serÌa muy similar. Para abrir la consola pulsar windows + r y escribir cmd. Solo hay que omitir el paso 1
+La explicaci√≥n del set up va dirigida a su instalacion en una distribuci√≥n GNU/Linux.
 
 1. Actualizacion de los paquetes
 sudo apt-get update
 sudo apt-get upgrade
 
 2. Instalacion de Node.js
-sudo apt-get install nodejs (v.8.10.0) Una versiÛn superior no deberÌa afectar.
-(En windows) Se puede instalar Node.js mediante su instalador --> https://nodejs.org/es/ Descargar la estable
+sudo apt-get install nodejs (v.8.10.0) Una versi√≥n superior no deber√≠a afectar.
 
 3. Instalacion del modulo convert-csv-to-array
 npm i convert-csv-to-array -S (v.1.0.3)
@@ -30,8 +28,8 @@ USE dbname;
 
 El script de creacion de la tabla se adjunta en el repositorio. Copiar y pegar en el prompt mysql
 
-8. A continuaciÛn hay que poscionarse en la carpeta donde se encuentre el script. Para ello empleamos el comando 
-cd rutaDirectorio para posicionaros sobre Èl.
+8. A continuaci√≥n hay que poscionarse en la carpeta donde se encuentre el script. Para ello empleamos el comando 
+cd rutaDirectorio para posicionaros sobre √©l.
 
 Una vez en la carpeta raiz, ejecutamos el script con el comando node nombreScript.js
 
@@ -43,7 +41,7 @@ Copiar la URL y pegarla en el navegador
 
 IMPORTANTE
 ==========================
-Antes de ejecutarlo, acceder al script y modificar los valores de la funcion crearConexion para el acceso a la base de datos. Adem·s, en la sentencia SQL,
-comprobar sobre quÈ tabla se est· trabajando. Comprobar tambiÈn la ruta de acceso de la variable fichero, definida en la parte superior del script.
+Antes de ejecutarlo, acceder al script y modificar los valores de la funcion crearConexion para el acceso a la base de datos. Adem√°s, en la sentencia SQL,
+comprobar sobre qu√© tabla se est√° trabajando. Comprobar tambi√©n la ruta de acceso de la variable fichero, definida en la parte superior del script.
 Seguir los comentarios explicativos del script
 ==========================
