@@ -1,0 +1,11 @@
+CREATE TABLE certificados (
+	id INT NOT NULL AUTO_INCREMENT,
+    nombre VARCHAR(90) NOT NULL,
+    dni VARCHAR(255) NOT NULL,
+    fechas VARCHAR(120) NOT NULL,
+    programa VARCHAR(120) NOT NULL,
+	horas INT NOT NULL,
+	centro VARCHAR (120) NOT NULL,
+	fecha_exp VARCHAR (60) NOT NULL,
+    PRIMARY KEY (id)
+);
